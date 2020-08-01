@@ -4,7 +4,7 @@ import com.google.inject.Inject;
 
 public class UserController {
 
-    private MessageService messageService;
+    private final MessageService messageService;
 
     @Inject
     public UserController(MessageService messageService) {
