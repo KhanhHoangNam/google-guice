@@ -22,5 +22,12 @@ public class App {
             System.out.println("A day in week");
         }
 
+        //Call a method in main method
+        anotherMethod();
+
+    }
+
+    private static void anotherMethod() {
+        System.out.println("I'm a fucking boy");
     }
 }
